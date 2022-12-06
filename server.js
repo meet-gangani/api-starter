@@ -6,7 +6,7 @@ const routes = require('./routes')
 const mongodb = require('./mongodb-config')
 
 const initialize = async () => {
-  await mongodb.initializeDb()
+//   await mongodb.initializeDb()
 
   app.use(cors())
   app.use(express.json())
